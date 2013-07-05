@@ -1,4 +1,15 @@
-node-xml2js
+This is a fork of https://github.com/Leonidas-from-XIV/node-xml2js. 
+
+This version of node-xml2js supports a new configuration parameter `ignoreXmlns` which 
+is boolean parameter and is false by default. If `ignoreXmlns` is true, then all XML namespaces 
+will be ignored in the JSON key names. For example for XML node <ns:a>hello</ns:a> will be converted in 
+{a: "hello"} instead of {'ns:a': "hello"}.
+
+Thx for Marek Kubica for the greate work. 
+
+Below is the original node-xml2js documentation. 
+
+node-xml2js 
 ===========
 
 Ever had the urge to parse XML? And wanted to access the data in some sane,
