@@ -5,7 +5,7 @@ is boolean parameter and is false by default. If `ignoreXmlns` is true, then all
 will be ignored in the JSON key names. For example for XML node `<ns:a>hello</ns:a>` will be converted in 
 `{a: "hello"}` instead of `{'ns:a': "hello"}`.
 
-Thx for Marek Kubica for the greate work. 
+Thx to [Marek Kubica](https://github.com/Leonidas-from-XIV) for the greate work. 
 
 Below is the original node-xml2js documentation. 
 
